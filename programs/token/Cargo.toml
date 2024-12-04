@@ -10,10 +10,11 @@ edition = { workspace = true }
 version = { workspace = true }
 
 [features]
-default = ["token", "associated-token", "token-2022"]
+default = ["token", "associated-token", "token-2022", "mpl-core"]
 token = []
 associated-token = []
 token-2022 = []
+mpl-core = []
 
 [dependencies]
 mollusk-svm = { workspace = true }
